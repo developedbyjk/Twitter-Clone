@@ -1,0 +1,341 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@400;500;600&family=Lexend:wght@400;500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* THIS IS 3 FLEX BOX STYLE PATTERN */
+.container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.feed{
+    width:600px;
+ 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 0px ;
+   
+   
+   
+}
+#main_feed{
+    border: 1px solid rgba(128, 128, 128, 0.13);
+}
+
+.fors{
+    width: 100%;
+    display: flex;
+    font-family: 'Lexend Exa', sans-serif;
+}
+.fors div{
+    padding: 15px 0px;
+   text-align: center;
+    width: 50%;
+    /* border: 1px solid green; */
+    /* background-color: thistle
+    ; */
+}
+.fors div:hover{
+    background-color: rgba(220, 220, 220, 0.473);
+}
+
+/* EXTRA SECTION CSS */
+
+.extra{
+    width: 350px;
+    position: relative;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    /* background-color: aquamarine; */
+}
+
+
+/* THIS IS EXTRA SEARCH SECTION */
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons_container {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    position: absolute;
+    padding: 12px;
+    min-width: 40px;
+}
+  
+
+  
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 90px;
+    outline: none;
+    border: none;
+    background-color: #f7f9f9;
+    
+}
+
+/* THIS IS WHATS HAPPENING SECITON  */
+
+.extra_whats_happening{
+    padding: 10px 0px 10px 0px;
+    background-color: #f7f9f9;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Lexend', sans-serif;
+    
+}
+.extra_whats_happening h2{
+    margin-left: 10px;
+}
+
+.extra_whats_happening_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    margin: 25px 15px;
+}
+.trending_in_state, .trending_tweets {
+    color: grey;
+}
+
+/* THIS IS WHO TO FOLLOW SECTION */
+
+.extra_who_to_follow{
+    padding: 10px 0px 10px 0px;
+    background-color: #f7f9f9;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+.extra_who_to_follow_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.extra_who_to_follow .names {
+    display: flex;
+    flex-direction: column;
+}
+
+.extra_who_to_follow .button{
+    background-color: rgb(15, 20, 25);
+    color: white;
+    border: 0;
+   
+    outline: 0;
+    border-radius: 90px;
+}
+.extra_who_to_follow .button p{
+    padding: 0px 16px;
+    
+}
+
+
+
+
+
+
+
+/* typography and icons */
+
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    /* width: 290px;
+    margin: 0 auto; */
+}
+
+header{
+  
+    border: 1px solid rgba(128, 128, 128, 0.13);
+    
+}
+header h3{
+    padding: 10px;
+}
+
+.tweet-input-area {
+    padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+   
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+#tweet-btn{
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: auto; 
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 600;
+    /* float: right; */
+    margin-top: auto;
+    margin-left: auto;
+}
+
+/* tweet */
+
+.tweet{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 100%;
+    /* gap: 4px; */
+}
+
+
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: aliceblue;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+
+
+
+/* THIS STYLE IS FOR NAVBAR */
+nav{
+    /* position: absolute; */
+    padding: 0px 50px;
+    /* background-color: aliceblue; */
+    margin: 0;
+    /* margin-left: 280px;
+  top: 0; */
+}
+
+ nav a{
+    padding: 12px;
+    margin: 10px 0px;
+    display:block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight:600px;
+    font-size:20px;
+   
+ }
+
+ nav a i {
+    margin: 0px 15px 0px 0px;
+    font-size: 20px;
+}
+
+#tweet-btn-nav{
+    text-align: center;
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 15px 19px;
+    border-radius: 70px;
+    width: 100%; 
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    
+}

@@ -1,0 +1,134 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="index.css">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body> 
+
+<div class="container">
+	<div class="navbar">
+		<nav>  
+			<a href="logo"><i class="fa-brands fa-twitter" style="color: #00acee;font-size: 2rem;"></i></a>
+			<a href="home"><i class="fa-regular fa-feather" style="color: #000000;"></i>Home</a>
+			<a href="explore"><i class="fa-solid fa-hashtag" style="color: #050505;"></i>Explore</a>
+			<a href="notificatons"> <i class="fa-regular fa-bell" style="color: #000000;"></i>Notificatons</a>
+			<a href="messages"> <i class="fa-regular fa-envelope" style="color: #050505;"></i>Message</a>
+			<a href="List"><i class="fa-solid fa-list" style="color: #0a0a0a;"></i>List</a>
+			<a href="Bookmarks"><i class="fa-regular fa-bookmark" style="color: #0d0d0d;"></i>Bookmarks</a>
+			<a href="tblur"><i class="fa-regular fa-circle-check" style="color: #000000;"></i>Twitter Blue</a>
+			<a href="profile"> <i class="fa-regular fa-user" style="color: #000000;"></i>Profile</a>
+			<a href="more"><i class="fa-regular fa-circle-info" style="color: #000000;"></i>More</a>
+			<a href="#" id="tweet-btn-nav">Tweet</a>
+		</nav>
+	</div>
+	<div class="feed" id="main_feed">
+		<header>
+			<h3>Home </h3> 
+			<div class="fors">
+				<div>For You</div>
+				<div>Following</div>
+			</div>
+		</header>
+	
+		<main >
+			<div class="tweet-input-area">
+				<img src="images/scrimbalogo.png" class="profile-pic">
+				<textarea placeholder="What's happening?" id="tweet-input"></textarea>
+				<button id="tweet-btn">Tweet</button>
+			</div>
+			
+			<div class="feed" id="feed">
+				<!-- Tweets here!! -->
+			</div>
+		</main>
+	</div>
+	<div class="extra">
+			<div class="extra_search input-icons_container">
+				<i class="fa-solid fa-magnifying-glass icon" style="color: #000000;"></i>
+				<input class="input-field" type="text">
+			</div>
+
+			<div class="extra_whats_happening">
+				<h2>Whats happening</h2>
+				<div class="extra_whats_happening_container">
+					<div class="trending_in_state">Trending in Gujarat</div>
+					<div class="trending_name"><b>Navratri</b></div>
+					<div class="trending_tweets">69.3 Tweets</div>
+				</div>
+				<div class="extra_whats_happening_container">
+					<div class="trending_in_state">Trending in Mumbai</div>
+					<div class="trending_name"><b>Mangoes</b></div>
+					<div class="trending_tweets">36.3 Tweets</div>
+				</div>
+				<div class="extra_whats_happening_container">
+					<div class="trending_in_state">Trending in Delhi</div>
+					<div class="trending_name"><b>Heat</b></div>
+					<div class="trending_tweets">79.3 Tweets</div>
+				</div>
+
+			</div>
+
+
+			<div class="extra_who_to_follow">
+
+				<div class="extra_who_to_follow_container">
+					<div class="profile-pic">
+						<img src="images/scrimbalogo.png" class="profile-pic">
+					</div>
+					<div class="names">
+						<div class="real_name"><b>Elon Musk</b></div>
+						<div class="user_name">@elonmusk</div>
+					</div>
+					<div class="button"><p>Follow</p></div>
+				</div>
+
+				<div class="extra_who_to_follow_container">
+					<div class="profile-pic">
+						<img src="images/scrimbalogo.png" class="profile-pic">
+					</div>
+					<div class="names">
+						<div class="real_name"><b>Elon Musk</b></div>
+						<div class="user_name">@elonmusk</div>
+					</div>
+					<div class="button"><p>Follow</p></div>
+				</div>
+
+				<div class="extra_who_to_follow_container">
+					<div class="profile-pic">
+						<img src="images/scrimbalogo.png" class="profile-pic">
+					</div>
+					<div class="names">
+						<div class="real_name"><b>Elon Musk</b></div>
+						<div class="user_name">@elonmusk</div>
+					</div>
+					<div class="button"><p>Follow</p></div>
+				</div>
+
+			</div>
+	</div>
+</div>
+
+
+
+
+	
+	<script src="index.js" type="module"></script>
+	<script>
+// 		setTimeout(function(){
+//    window.location.reload();
+// }, 5000);
+	</script>
+</body>
+
+</html>
