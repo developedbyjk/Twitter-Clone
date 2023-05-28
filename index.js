@@ -3,6 +3,7 @@
 import { tweetsData } from './data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
+alert("this is working");
 document.addEventListener('click', function(e){
     if(e.target.dataset.like){
        handleLikeClick(e.target.dataset.like) 
@@ -58,6 +59,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         tweetsData.unshift({
             handle: `@Scrimba`,
+            realname : `Scrimba`,
             profilePic: `images/scrimbalogo.png`,
             likes: 0,
             retweets: 0,
@@ -74,6 +76,7 @@ function handleTweetBtnClick(){
 }
 
 function getFeedHtml(){
+    alert("this is wurking");
     let feedHtml = ``
     
     tweetsData.forEach(function(tweet){
@@ -164,7 +167,7 @@ function getFeedHtml(){
 
 
         </div>   
-       ${end of tweet detils}
+     
 
         </div>            
     </div>

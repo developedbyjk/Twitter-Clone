@@ -14,7 +14,7 @@ export const tweetsData = [
     },    
     {
         handle: `@Elon ✅`,
-        realname : `Elon Musk`
+        realname : `Elon Musk`,
         profilePic: `images/musk.png`,
         likes: 6500,
         retweets: 234,
@@ -37,7 +37,7 @@ export const tweetsData = [
     },
         {
         handle: `@NoobCoder12`,
-        realname : `Noob Coder`
+        realname : `Noob Coder`,
         profilePic: `images/flower.png`,
         likes: 10,
         retweets: 3,
